@@ -85,7 +85,4 @@ It follows an **object-oriented testbench methodology** with a focus on achievin
 
 Assertions are embedded in the FIFO RTL file and guarded using conditional compilation:
 
-```verilog
-`ifdef SIM
-   // Assertions here
-`endif
+
